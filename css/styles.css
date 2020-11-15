@@ -1,1 +1,106 @@
+:root {
+  --primary-text-color: #212121;
+  --advant-text-color: #757575;
+  --team-box-position-color: #757575;
+  --accent-color: #2196f3;
+}
 
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+
+/* site nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* contacts */
+.contacts .link {
+  color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #2196f3;
+}
+
+/* Hero section */
+
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+
+/* Advantages section */
+
+.advant .advant-text {
+  color: var(--advant-text-color);
+}
+
+/* Team section */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team .team-box {
+  background-color: #ffffff;
+}
+
+.team .team-box-position {
+  color: var(--advant-text-color);
+}
+
+/* Futer */
+
+.footer {
+  background-color: #2f303a;
+}
+.adress-list .adress {
+  color: #ffffff;
+}
+.adress-list .adress-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button-hero {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* Portfolio styles */
+
+h1 {
+  display: none;
+}
+
+.button {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.filters .button:hover,
+.filters .button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.projects .project-type {
+  color: var(--advant-text-color);
+}
+
+/* цвет основного текста  #212121 */
+/* цвет вторичного цвета #757575 */ /* белый цвет #FFFFFF */
+/* белый цвет c прозрачностью 60% rgba(255, 255, 255, 0.6) */
+/* акцент #2196F3 */ /* общий фон и фон под фото #ffffff */
+/* фон команды #F5F4FA */ /* фон футера и hero #2F303A */ ;
