@@ -63,7 +63,7 @@ ul {
   color: var(--advant-text-color);
 }
 
-/* Futer */
+/* Footer */
 
 .footer {
   background-color: #2f303a;
@@ -94,6 +94,9 @@ h1 {
 .filters .button:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+}
+.projects .project-title {
+  color: var(--primary-text-color);
 }
 .projects .project-type {
   color: var(--advant-text-color);
