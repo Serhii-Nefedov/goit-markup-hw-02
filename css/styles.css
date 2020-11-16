@@ -201,6 +201,10 @@ ul {
   line-height: 1.71;
   text-decoration: none;
 }
+.adress-list .adress-link:hover,
+.adress-list .adress:hover {
+  color: var(--accent-color);
+}
 
 /* Portfolio styles */
 
